@@ -27,8 +27,8 @@
   <distributionManagement>
     <site>
       <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>http://localhost:8081/artifactory/webapp/#/artifacts/browse/tree/General/libs-release</url>
+      <name>DESKTOP-KLLQMC0-snapshots</name>
+      <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </site>
   </distributionManagement>
 
