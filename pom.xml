@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/5.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
@@ -16,19 +16,15 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
-  <profiles>
-    <profile>
-  	<modules>
-    	    <module>web</module>
-  	</modules>
-    </profile>
-  </profiles>
+  <modules>
+    <module>server</module>
+  </modules>
 
   <distributionManagement>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>http://localhost:8081/artifactory/webapp/#/artifacts/browse/tree/General/libs-release</url>
+      <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
 
@@ -217,8 +213,7 @@
   </scm>
 
   <prerequisites>
-    <maven>3.0.3</maven>
+    <maven>3.0.6</maven>
   </prerequisites>
 
 </project>
-
