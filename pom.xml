@@ -16,9 +16,13 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
-  <modules>
-    <module>web</module>
-  </modules>
+  <profiles>
+    <profile>
+  	<modules>
+    	    <module>web</module>
+  	</modules>
+    </profile>
+  </profiles>
 
   <distributionManagement>
     <site>
