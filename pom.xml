@@ -28,7 +28,7 @@
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url></url>
+      <url>http://localhost:8081/artifactory/webapp/#/artifacts/browse/tree/General/libs-release</url>
     </site>
   </distributionManagement>
 
