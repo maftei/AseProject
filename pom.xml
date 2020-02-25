@@ -28,7 +28,7 @@
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
+      <url>file:////data/projects/AseProject</url>
     </site>
   </distributionManagement>
 
