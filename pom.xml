@@ -28,7 +28,7 @@
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>file:////data/projects/AseProject</url>
+      <url></url>
     </site>
   </distributionManagement>
 
