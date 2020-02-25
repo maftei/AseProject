@@ -24,13 +24,13 @@
     </profile>
   </profiles> 
 
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>DESKTOP-KLLQMC0-snapshots</name>
-      <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-    </site>
-  </distributionManagement>
+   <distributionManagement>
+     <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-KLLQMC0-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+     </snapshotRepository>
+  </distributionManagement>  
 
   <build>
     <plugins>
